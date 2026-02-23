@@ -5,7 +5,6 @@
 A lightweight, append-only metrics tracking system for measuring and visualizing AI agent performance over time. Built for agent builders who need simple, effective evaluation tools without complex infrastructure.
 
 [![CI](https://github.com/Haythos/eval-dashboard/actions/workflows/ci.yml/badge.svg)](https://github.com/Haythos/eval-dashboard/actions/workflows/ci.yml)
-[![npm version](https://badge.fury.io/js/%40haythos%2Feval-dashboard.svg)](https://www.npmjs.com/package/@haythos/eval-dashboard)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
@@ -24,14 +23,20 @@ A lightweight, append-only metrics tracking system for measuring and visualizing
 
 ## Installation
 
+### From GitHub (Recommended)
+
 ```bash
-npm install -g @haythos/eval-dashboard
+# Global install
+npm install -g https://github.com/Haythos/eval-dashboard
+
+# Or as a local dependency
+npm install https://github.com/Haythos/eval-dashboard
 ```
 
-Or as a local dependency:
+### From npm (Coming soon)
 
 ```bash
-npm install @haythos/eval-dashboard
+npm install -g @haythos/eval-dashboard
 ```
 
 ---
