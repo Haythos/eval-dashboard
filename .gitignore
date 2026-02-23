@@ -1,0 +1,28 @@
+# Node modules
+node_modules/
+
+# Test coverage
+coverage/
+
+# Data files (users generate their own)
+data/
+*.jsonl
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

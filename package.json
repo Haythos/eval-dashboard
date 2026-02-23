@@ -1,0 +1,43 @@
+{
+  "name": "@haythos/eval-dashboard",
+  "version": "1.0.0",
+  "description": "Evaluation dashboard for AI agent performance tracking",
+  "main": "src/eval-dashboard.js",
+  "bin": {
+    "eval-dashboard": "src/eval-dashboard.js"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "evaluation",
+    "metrics",
+    "dashboard",
+    "monitoring",
+    "performance",
+    "testing"
+  ],
+  "author": "Haythos <haythosvii@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Haythos/eval-dashboard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Haythos/eval-dashboard/issues"
+  },
+  "homepage": "https://github.com/Haythos/eval-dashboard#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
